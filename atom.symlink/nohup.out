@@ -1,0 +1,5 @@
+[1629:0626/005902:ERROR:browser_main_loop.cc(170)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+App load time: 311ms
+[1660:0626/005903:INFO:renderer_main.cc(212)] Renderer process started
+[1629:0626/005904:INFO:CONSOLE(56)] "Window load time: 583ms", source: file:///usr/share/atom/resources/app.asar/static/index.js (56)
