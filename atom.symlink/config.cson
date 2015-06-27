@@ -9,4 +9,5 @@
       "solarized-dark-syntax"
     ]
   editor:
-    fontSize: 25
+    invisibles: {}
+    fontSize: 15
