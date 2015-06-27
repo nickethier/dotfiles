@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+if [[ $(xrandr | grep " connected") =~ DP1.* && $(xrandr | grep " connected") =~ HDMI2.* ]]; then
+  echo "Setting up multi monitor in clamshell mode."
+  xrandr --output eDP1 --off --output DP1 --auto --output HDMI2 --auto --right-of DP1 --rotate right
+else
+  xrandr --output eDP1 --auto
+fi

@@ -168,3 +168,4 @@ bar {
 }
 
 exec --no-startup-id i3-msg 'workspace 1:www; exec /usr/bin/chromium'
+exec --no-startup-id auto-display
