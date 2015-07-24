@@ -10,4 +10,5 @@
     ]
   editor:
     invisibles: {}
-    fontSize: 15
+    showIndentGuide: true
+    softTabs: false

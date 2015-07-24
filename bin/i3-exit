@@ -1,6 +1,10 @@
 #!/bin/sh
+
+bgs=/home/nethier/Pictures/backgrounds/`xrandr | grep connected | grep + |head -1 | cut -d' ' -f3 | cut -d'+' -f1`/*
+
 lock() {
-    i3lock -e -c 000000
+    echo "Using random background from $bgs"
+    i3lock -e -c 000000 -i `shuf -n1 -e $bgs`
 }
 
 case "$1" in
